@@ -1,0 +1,11 @@
+god_node_questions.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Mac
+.DS_Store
