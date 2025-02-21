@@ -3,7 +3,7 @@ import json
 import os
 from openai import OpenAI
 from prompt_templates import QUESTION_GENERATION_PROMPT
-from logging import god_node_logger
+from logger import god_model_logger
 
 
 def generate_questions(output_file: str, openai_key: str) -> None:
@@ -18,17 +18,17 @@ def generate_questions(output_file: str, openai_key: str) -> None:
     client = OpenAI(api_key=openai_key)
 
     # Generate questions using chat completion
-    god_node_logger.info(f"Generating questions using OpenAI API")
+    god_model_logger.info(f"Generating questions using OpenAI API")
     response = client.chat.completions.create(
-        model="o1-preview",  # OPENAI Tier 3 is required to use o3-mini. More info: https://platform.openai.com/docs/guides/rate-limits
+        model="o1-preview",  # OPENAI Tier 3 is required if you want to use o3-mini. More info: https://platform.openai.com/docs/guides/rate-limits
         messages=[
             {"role": "user", "content": QUESTION_GENERATION_PROMPT}
         ]
     )
-    god_node_logger.info(f"Questions generated successfully")
+    god_model_logger.info(f"Questions generated successfully")
 
     # Write responses to JSONL file
-    god_node_logger.info(f"Writing questions to {output_file}")
+    god_model_logger.info(f"Writing questions to {output_file}")
     with open(output_file, 'w') as f:
         for choice in response.choices:
             content = choice.message.content
@@ -40,17 +40,17 @@ def generate_questions(output_file: str, openai_key: str) -> None:
                         f.write(json.dumps(json_obj) + '\n')
                     except json.JSONDecodeError:
                         # Skip invalid JSON lines
-                        god_node_logger.warning(f"Invalid JSON line: {line}")
+                        god_model_logger.warning(f"Invalid JSON line: {line}")
                         continue
-    god_node_logger.info(f"Questions written to {output_file}")
+    god_model_logger.info(f"Questions written to {output_file}")
 	
 
 if __name__ == "__main__":
     # Set up command line argument parsing
     parser = argparse.ArgumentParser(description='Generate personalized questions using OpenAI')
     
-    parser.add_argument('-o', '--output', default='god_node_questions.jsonl',
-                       help='Output file path (default: god_node_questions.jsonl)')
+    parser.add_argument('-o', '--output', default='god_model_questions.jsonl',
+                       help='Output file path (default: god_model_questions.jsonl)')
     parser.add_argument('-k', '--key', help='OpenAI API key')
 
     args = parser.parse_args()
@@ -61,4 +61,5 @@ if __name__ == "__main__":
         if not args.key:
             raise ValueError("OPENAI_API_KEY not found")
 
+    # Generate questions
     generate_questions(args.output, args.key)

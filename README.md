@@ -1,12 +1,15 @@
-# God Node
+# God Model
 
-![God Node Architecture](./images/god_node.png)
+![God Model Architecture](./images/god_model.png)
 *The GOD model, running in a secure TEE, generates realistic user queries. The Personal AI on the user's device processes private data to answer the queries. The GOD model verifies and grades those answers through internal checks or external APIs while ensuring privacy*
 
 ## TLDR
 
-This repo introduces methods to generate personalized questions for the God Node v1.
+This repo introduces methods to generate personalized questions for the God Model v1.
 
+Paper: **GOD model: Privacy Preserved AI School for Personal Assistant** 
+
+<a href='https://arxiv.org/abs/XXXX'><img src='https://img.shields.io/badge/arXiv-XXXX'></a>
 
 ## Abstract
 
@@ -14,19 +17,19 @@ The Guardian of Data (GOD) model is a secure, privacy-preserving framework desig
 
 
 
-## God Node Evaluates Personal AI
+## God Model Evaluates Personal AI
 
-![God Node Evaluates Personal AI](./images/evaluate.png)
+![God Model Evaluates Personal AI](./images/evaluate.png)
 *The GOD model evaluates the Personal AI by asking personal questions such as height, last email subject, and recent online orders. The Personal AI processes these queries using private, on-device data and responds without exposing raw information.*
 
 
 ## Usage
 
 ```bash
-python generate_questions.py -o god_node_questions.jsonl -k $OPENAI_API_KEY
+python generate_questions.py -o god_model_questions.jsonl -k $OPENAI_API_KEY
 ```
 
-## 🌟Citation
+## Citation
 
 ```python
 @article{placeholder,

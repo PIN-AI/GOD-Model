@@ -90,7 +90,7 @@ Then, select 8 best questions per category based on:
 * Diversity (well-representing all data sources).
 * Scalability (can be automated for grading).
 
-Only output results in the following JSON format:
+Only output results in the following JSONL format where each line is a JSON object:
 {"domain": "Social", "questions": ["<question1>", "<question2>", "<question3>"]}
 {"domain": "Productivity", "questions": ["<question1>", "<question2>", "<question3>"]}
 ...
