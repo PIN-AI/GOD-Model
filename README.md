@@ -31,7 +31,7 @@ python generate_questions.py -o god_model_questions.jsonl -k $OPENAI_API_KEY
 
 ## Citation
 
-```python
+```
 @article{placeholder,
   title={GOD model: Privacy Preserved AI School for Personal Assistant},
   author={PIN AI Team},
