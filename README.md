@@ -9,7 +9,7 @@ This repo introduces methods to generate personalized questions for the God Mode
 
 Paper: **GOD model: Privacy Preserved AI School for Personal Assistant** 
 
-<a href='https://arxiv.org/abs/XXXX'><img src='https://img.shields.io/badge/arXiv-XXXX'></a>
+<a href='https://arxiv.org/abs/2502.18527'><img src='https://img.shields.io/badge/arXiv-2502.18527-b31b1b'></a>
 
 ## Abstract
 
