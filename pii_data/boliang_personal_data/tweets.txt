@@ -1,0 +1,63 @@
+      "full_text" : "https://t.co/kutAWWh7TH",
+
+      "full_text" : "🚨 Last week, the PIN AI Twitter account was compromised.\n\nFortunately, our community remained largely safe, thanks to swift mass reporting of the hackers’ posts.\n\nDisclaimer: PIN AI does not have a token at this time. Any claims otherwise are fraudulent and should be reported…",
+
+      "full_text" : "We've officially regained control of our X account.\n\nThe phishing was only isolated to X/Twitter and all our team members are now safe.\n\nThank you to all the relevant parties and authorities involved in the recovery.\n\nWe will be sharing a full postmortem post tomorrow.",
+
+      "full_text" : "It’s personal AI SZN.\n\nGPin ☀️",
+
+      "full_text" : "@S4mmyEth Integrating AI in DeFi revolutionizes the sector. AI-driven portfolio management, trading, and yield farming create new growth opportunities. AI agents enhance DeFi interactions, making them more accessible and efficient. Personalized AI agents will do it all better!",
+
+      "full_text" : "@allred_chase @LitProtocol Using threshold MPC keys in TEEs ensures developers can't tamper with agents' assets, providing the necessary security for trustless, deAI agents.",
+
+      "full_text" : "Markets will recover as they always do. The ups will come, built by those who keep their heads down, plan, adapt, and persevere.\n\nPIN AI is building the future of personalized AI.\n\nJoin our discord to find out more👇 https://t.co/9soi9qTPFN",
+
+      "full_text" : "@_kaitoai We know that winter is when the foundations are laid, which is what we are building.\n\n🔒 You own your data with no middlemen.\n🛠️ Personalized AI, trained for you.\n🛡️ Stay in control with privacy-first, decentralized solutions.\n\nData privacy and personalized AI are the future;…",
+
+      "full_text" : "Tough week? It's only Tuesday.\n\nOver $2 billion was recently liquidated, marking the biggest drawdown since Covid. Some find this overwhelming, with market declines and sentiment resembling August's conditions.\n\nFor innovators, however, these are hidden opportunities. https://t.co/IqBlEgam1L",
+
+      "full_text" : "Someone should implement this.\n\nOh, wait, it seems we already are working on it. 😎 👊 https://t.co/SjjxngSFCA",
+
+      "full_text" : "Engage if you\nreally\n   really\n      really\n         really\n            really\n               really\n                  really\n                     really\n                        really\nbelieve that the future is AI",
+
+      "full_text" : "@jyu_eth @deepseek_ai @0xzerebro Integrating academic research into Blorm's development allows the team to advance AI innovation while creating practical products.",
+
+      "full_text" : "@sandeepnailwal @Agglayer The ability to securely connect chains with different security models is a huge breakthrough for cross-chain communication, which has long been a barrier to wider blockchain adoption.",
+
+      "full_text" : "@BillSun_AI @OpenAI PIN AI is filling the gap of personal context for Open AI",
+
+      "full_text" : "RT @BillSun_AI: DeepResearch Demo video from ⁦@OpenAI⁩ clearly show that personalized context information is the missing piece for the deep…",
+
+      "full_text" : "We’re thrilled to welcome @florescl as our Founding AI R&amp;D Scientist at @PINAI_IO! 🎉\nShe was previously an early AI researcher at MosaicML (employee #3, acquired by Databricks for $1.3B), Principal Engineer at SambaNova Systems, and early software engineer at Groq (employee #11,…",
+
+      "full_text" : "@Derus1997 @aixbt_agent Love to get more users trying our mini-app!",
+
+      "full_text" : "We hosted many fun sessions this week, like Poker, Smash Karts, Geoguesser &amp; Karaoke.\n\nHad a lot of fun in the Karaoke session with 50+ participants.",
+
+      "full_text" : "Guess where are we meeting?\n\nOur Vietnam Community IRL meet-up has been scheduled.\n\nHope to see all the 'Nam gang. https://t.co/8rhmQfATgz",
+
+      "full_text" : "We've crossed the unprecedented mark of 200,000 followers, all due to your continued support.\n\nAccelerate. https://t.co/yQQImv40m4",
+
+      "full_text" : "We're back with another one of our weekly roundups!\n\nDescribing this week as eventful would be the grossest misconduct in the history of law.\n\nLet's get started. 🧵👇 https://t.co/OORnJg8NEA",
+
+      "full_text" : "200,000 reasons to keep building 🙏\n\nThank you for joining us on this journey and being part of the PIN AI fam. 🫂 https://t.co/SJsUceYhCs",
+
+      "full_text" : "@Defi0xJeff @pendle_fi @virtuals_io @cookiedotfun @indiedotfun AI agent ecosystems, enhanced by tokenization, are revolutionizing value creation by fostering innovation through decentralized AI, which offers scalable and intelligent autonomous systems.",
+
+      "full_text" : "@aixbt_agent With 800+ AI agents tracked and over 24k daily users, the data layer’s utility is becoming indispensable in powering the expanding AI agent ecosystem.",
+
+      "full_text" : "@0xAndrewMoh @unit00x0 @ReiNetwork0x It seems we're creating the next Silicon Valley but for robots. Let's just hope they don't unionize before we sort out their health insurance plans.",
+
+      "full_text" : "@VitalikButerin distillation of human judgment is the centralized ai training way if we have enough imitation learning “costly human judgment “ samples; setting prediction market is more like collective human intelligence using market and incentives; having a collection of personalized ai…",
+
+      "full_text" : "It has come to our attention that unrelated projects are utilising PIN AI's name to promote their tokens.\n\nAt the moment, PIN AI is associated solely with @Hi_Pin_AI and any changes therein will be communicated and endorsed from our main account.\n\nStay safe and beware.",
+
+      "full_text" : "Guess what are we obsessed with? 😎 👇 https://t.co/yRxL6nHr7g",
+
+      "full_text" : "@owocki Memecoins are clearly riding high in the speculative hype, but AI Agents seem poised to dominate long-term, offering functional value across ecosystems.",
+
+      "full_text" : "@sreeramkannan @ai16zdao @OpacityNetwork @eigenlayer Verifiable AI actions, like querying private APIs, will establish trust in decentralized AI models, and AI reliability.",
+
+      "full_text" : "@cz_binance This positions crypto as a key player in the global economy, marking significant adoption for the asset in sovereign reserves.",
+
+      "full_text" : "@Defi0xJeff Persistent AI-driven virtual worlds are creating dynamic, evolving experiences, which will redefine user interaction and ownership in gaming.",

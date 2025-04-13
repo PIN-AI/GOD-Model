@@ -1,0 +1,1369 @@
+{
+    "BasicInfo": {
+        "steamid": "76561198387397215",
+        "personaname": "CrazyCat",
+        "profileurl": "https://steamcommunity.com/profiles/76561198387397215/",
+        "avatar": "https://avatars.steamstatic.com/d0caa9faf91149f07b23ea0b5c3822c46d0aec9c.jpg"
+    },
+    "OwnedGames": {
+        "game_count": 32,
+        "games": [
+            {
+                "appid": 230410,
+                "name": "Warframe",
+                "playtime_forever": 1762,
+                "playtime_2weeks": 0,
+                "img_icon_url": "22064646470f4c53388ba87774c7ac10f0a91ffa",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 9,
+                        "description": "Co-op"
+                    },
+                    {
+                        "id": 38,
+                        "description": "Online Co-op"
+                    },
+                    {
+                        "id": 27,
+                        "description": "Cross-Platform Multiplayer"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 30,
+                        "description": "Steam Workshop"
+                    },
+                    {
+                        "id": 35,
+                        "description": "In-App Purchases"
+                    },
+                    {
+                        "id": 41,
+                        "description": "Remote Play on Phone"
+                    },
+                    {
+                        "id": 42,
+                        "description": "Remote Play on Tablet"
+                    },
+                    {
+                        "id": 43,
+                        "description": "Remote Play on TV"
+                    },
+                    {
+                        "id": 61,
+                        "description": "HDR available"
+                    }
+                ]
+            },
+            {
+                "appid": 236390,
+                "name": "War Thunder",
+                "playtime_forever": 1976,
+                "playtime_2weeks": 0,
+                "img_icon_url": "c69fbafb6e9891314cc5df0fe6a659612c289bf9",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 20,
+                        "description": "MMO"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 9,
+                        "description": "Co-op"
+                    },
+                    {
+                        "id": 38,
+                        "description": "Online Co-op"
+                    },
+                    {
+                        "id": 27,
+                        "description": "Cross-Platform Multiplayer"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 53,
+                        "description": "VR Supported"
+                    },
+                    {
+                        "id": 35,
+                        "description": "In-App Purchases"
+                    },
+                    {
+                        "id": 41,
+                        "description": "Remote Play on Phone"
+                    },
+                    {
+                        "id": 42,
+                        "description": "Remote Play on Tablet"
+                    }
+                ]
+            },
+            {
+                "appid": 311290,
+                "name": "SpellForce 3 Reforced",
+                "playtime_forever": 69,
+                "playtime_2weeks": 0,
+                "img_icon_url": "2366057412d181cafcd50aa8994e91c2a64261a0",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 47,
+                        "description": "LAN PvP"
+                    },
+                    {
+                        "id": 9,
+                        "description": "Co-op"
+                    },
+                    {
+                        "id": 38,
+                        "description": "Online Co-op"
+                    },
+                    {
+                        "id": 48,
+                        "description": "LAN Co-op"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 30,
+                        "description": "Steam Workshop"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 17,
+                        "description": "Includes level editor"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 1416260,
+                "name": "SpellForce 3: Versus Edition",
+                "playtime_forever": 0,
+                "playtime_2weeks": 0,
+                "img_icon_url": "ada9fad61de52f88468d1f584a6585955fe76f31",
+                "categories": [
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 47,
+                        "description": "LAN PvP"
+                    },
+                    {
+                        "id": 9,
+                        "description": "Co-op"
+                    },
+                    {
+                        "id": 38,
+                        "description": "Online Co-op"
+                    },
+                    {
+                        "id": 48,
+                        "description": "LAN Co-op"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    }
+                ]
+            },
+            {
+                "appid": 291480,
+                "name": "Warface: Clutch",
+                "playtime_forever": 190,
+                "playtime_2weeks": 0,
+                "img_icon_url": "66ef308279871d99ca776d4602bf02a354570368",
+                "categories": [
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 20,
+                        "description": "MMO"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 9,
+                        "description": "Co-op"
+                    },
+                    {
+                        "id": 38,
+                        "description": "Online Co-op"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 35,
+                        "description": "In-App Purchases"
+                    }
+                ]
+            },
+            {
+                "appid": 357070,
+                "name": "UBERMOSH",
+                "playtime_forever": 0,
+                "playtime_2weeks": 0,
+                "img_icon_url": "e8cd0580affd04d1da681da369fb0d5f927dae8d",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 292030,
+                "name": "The Witcher 3: Wild Hunt",
+                "playtime_forever": 71,
+                "playtime_2weeks": 0,
+                "img_icon_url": "6e43cb881e60712c3cccdd7f871baa56acf15328",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 30,
+                        "description": "Steam Workshop"
+                    },
+                    {
+                        "id": 18,
+                        "description": "Partial Controller Support"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 42,
+                        "description": "Remote Play on Tablet"
+                    },
+                    {
+                        "id": 43,
+                        "description": "Remote Play on TV"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 431960,
+                "name": "Wallpaper Engine",
+                "playtime_forever": 51,
+                "playtime_2weeks": 0,
+                "img_icon_url": "72edaed9d748c6cf7397ffb1c83f0b837b9ebd9d",
+                "categories": [
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 51,
+                        "description": "Steam Workshop"
+                    },
+                    {
+                        "id": 30,
+                        "description": "Steam Workshop"
+                    },
+                    {
+                        "id": 17,
+                        "description": "Includes level editor"
+                    }
+                ]
+            },
+            {
+                "appid": 289070,
+                "name": "Sid Meier's Civilization VI",
+                "playtime_forever": 2951,
+                "playtime_2weeks": 0,
+                "img_icon_url": "9dc914132fec244adcede62fb8e7524a72a7398c",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 47,
+                        "description": "LAN PvP"
+                    },
+                    {
+                        "id": 37,
+                        "description": "Shared/Split Screen PvP"
+                    },
+                    {
+                        "id": 24,
+                        "description": "Shared/Split Screen"
+                    },
+                    {
+                        "id": 27,
+                        "description": "Cross-Platform Multiplayer"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 30,
+                        "description": "Steam Workshop"
+                    },
+                    {
+                        "id": 35,
+                        "description": "In-App Purchases"
+                    },
+                    {
+                        "id": 32,
+                        "description": "Steam Turn Notifications"
+                    },
+                    {
+                        "id": 42,
+                        "description": "Remote Play on Tablet"
+                    },
+                    {
+                        "id": 44,
+                        "description": "Remote Play Together"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 730,
+                "name": "Counter-Strike 2",
+                "playtime_forever": 46,
+                "playtime_2weeks": 0,
+                "img_icon_url": "8dbc71957312bbd3baea65848b545be9eae2a355",
+                "categories": [
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 27,
+                        "description": "Cross-Platform Multiplayer"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 30,
+                        "description": "Steam Workshop"
+                    },
+                    {
+                        "id": 35,
+                        "description": "In-App Purchases"
+                    },
+                    {
+                        "id": 8,
+                        "description": "Valve Anti-Cheat enabled"
+                    },
+                    {
+                        "id": 15,
+                        "description": "Stats"
+                    },
+                    {
+                        "id": 41,
+                        "description": "Remote Play on Phone"
+                    },
+                    {
+                        "id": 42,
+                        "description": "Remote Play on Tablet"
+                    },
+                    {
+                        "id": 43,
+                        "description": "Remote Play on TV"
+                    },
+                    {
+                        "id": 63,
+                        "description": "Steam Timeline"
+                    }
+                ]
+            },
+            {
+                "appid": 578080,
+                "name": "PUBG: BATTLEGROUNDS",
+                "playtime_forever": 37682,
+                "playtime_2weeks": 0,
+                "img_icon_url": "609f27278aa70697c13bf99f32c5a0248c381f9d",
+                "categories": [
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 15,
+                        "description": "Stats"
+                    },
+                    {
+                        "id": 41,
+                        "description": "Remote Play on Phone"
+                    },
+                    {
+                        "id": 42,
+                        "description": "Remote Play on Tablet"
+                    }
+                ]
+            },
+            {
+                "appid": 356190,
+                "name": "Middle-earth™: Shadow of War™",
+                "playtime_forever": 43,
+                "playtime_2weeks": 0,
+                "img_icon_url": "316c479e5d51d21e15eb8f82338fce82c42c4115",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 35,
+                        "description": "In-App Purchases"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 668630,
+                "name": "Tricolour Lovestory",
+                "playtime_forever": 0,
+                "playtime_2weeks": 0,
+                "img_icon_url": "4821569fdcde5100761669d70050480d1509db48",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 678950,
+                "name": "DRAGON BALL FighterZ",
+                "playtime_forever": 49,
+                "playtime_2weeks": 0,
+                "img_icon_url": "ebac40c0f7452dcafd40d0fb0ad52c2ae10639f5",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 37,
+                        "description": "Shared/Split Screen PvP"
+                    },
+                    {
+                        "id": 24,
+                        "description": "Shared/Split Screen"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 41,
+                        "description": "Remote Play on Phone"
+                    },
+                    {
+                        "id": 42,
+                        "description": "Remote Play on Tablet"
+                    },
+                    {
+                        "id": 43,
+                        "description": "Remote Play on TV"
+                    },
+                    {
+                        "id": 44,
+                        "description": "Remote Play Together"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 699130,
+                "name": "World War Z",
+                "playtime_forever": 139,
+                "playtime_2weeks": 0,
+                "img_icon_url": "0f9e81a6be6e3f5d2a40551ee3aaf63329048b7a",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 9,
+                        "description": "Co-op"
+                    },
+                    {
+                        "id": 38,
+                        "description": "Online Co-op"
+                    },
+                    {
+                        "id": 27,
+                        "description": "Cross-Platform Multiplayer"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 755790,
+                "name": "Ring of Elysium",
+                "playtime_forever": 231,
+                "playtime_2weeks": 0,
+                "img_icon_url": "bff111ed4307fc769143eb3d652fb940c363e37e",
+                "categories": [
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 813780,
+                "name": "Age of Empires II: Definitive Edition",
+                "playtime_forever": 958,
+                "playtime_2weeks": 0,
+                "img_icon_url": "e2b5a7beb58136b892e517cb93ae08b36065363c",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 47,
+                        "description": "LAN PvP"
+                    },
+                    {
+                        "id": 9,
+                        "description": "Co-op"
+                    },
+                    {
+                        "id": 38,
+                        "description": "Online Co-op"
+                    },
+                    {
+                        "id": 48,
+                        "description": "LAN Co-op"
+                    },
+                    {
+                        "id": 27,
+                        "description": "Cross-Platform Multiplayer"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 17,
+                        "description": "Includes level editor"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 433850,
+                "name": "Z1 Battle Royale",
+                "playtime_forever": 0,
+                "playtime_2weeks": 0,
+                "img_icon_url": "aee7491abfd812e2fbb4ec3326ad5f4b85c8137a",
+                "categories": [
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 35,
+                        "description": "In-App Purchases"
+                    }
+                ]
+            },
+            {
+                "appid": 439700,
+                "name": "H1Z1: Test Server",
+                "playtime_forever": 0,
+                "playtime_2weeks": 0,
+                "img_icon_url": "d0e924622be8ce1e9920197f397365bb1e6bca5f",
+                "categories": [
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 20,
+                        "description": "MMO"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 838350,
+                "name": "太吾绘卷 The Scroll Of Taiwu",
+                "playtime_forever": 59,
+                "playtime_2weeks": 0,
+                "img_icon_url": "da986cd91bbd3b3963b2d7e21f4ec7a67771b1f8",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 42,
+                        "description": "Remote Play on Tablet"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 779340,
+                "name": "Total War: THREE KINGDOMS",
+                "playtime_forever": 1278,
+                "playtime_2weeks": 0,
+                "img_icon_url": "12eb7d5a469812b3dd13d04165cff053f477914d",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 47,
+                        "description": "LAN PvP"
+                    },
+                    {
+                        "id": 9,
+                        "description": "Co-op"
+                    },
+                    {
+                        "id": 38,
+                        "description": "Online Co-op"
+                    },
+                    {
+                        "id": 48,
+                        "description": "LAN Co-op"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 994280,
+                "name": "Gujian3(古剑奇谭三)",
+                "playtime_forever": 357,
+                "playtime_2weeks": 0,
+                "img_icon_url": "df578400e899bfd1605c01ce5ff6894c5d986ffb",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 18,
+                        "description": "Partial Controller Support"
+                    },
+                    {
+                        "id": 42,
+                        "description": "Remote Play on Tablet"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 278360,
+                "name": "A Story About My Uncle",
+                "playtime_forever": 2,
+                "playtime_2weeks": 0,
+                "img_icon_url": "feb33a53334222c82aaf0545e00913bd92bcd3d9",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 1022450,
+                "name": "War Selection",
+                "playtime_forever": 7,
+                "playtime_2weeks": 0,
+                "img_icon_url": "ba39d4fb6ec685ab21949b5e90180311e23dcd7f",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 35,
+                        "description": "In-App Purchases"
+                    }
+                ]
+            },
+            {
+                "appid": 812140,
+                "name": "Assassin's Creed Odyssey",
+                "playtime_forever": 134,
+                "playtime_2weeks": 0,
+                "img_icon_url": "4b6cf0715b30669411bf204bce7ed99a9c84671b",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 13,
+                        "description": "Captions available"
+                    },
+                    {
+                        "id": 35,
+                        "description": "In-App Purchases"
+                    },
+                    {
+                        "id": 18,
+                        "description": "Partial Controller Support"
+                    },
+                    {
+                        "id": 41,
+                        "description": "Remote Play on Phone"
+                    },
+                    {
+                        "id": 42,
+                        "description": "Remote Play on Tablet"
+                    },
+                    {
+                        "id": 61,
+                        "description": "HDR available"
+                    }
+                ]
+            },
+            {
+                "appid": 1091500,
+                "name": "Cyberpunk 2077",
+                "playtime_forever": 222,
+                "playtime_2weeks": 0,
+                "img_icon_url": "15ba5f5437473a1b4d628b3b87223e84f4cfdf38",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 1085660,
+                "name": "Destiny 2",
+                "playtime_forever": 0,
+                "playtime_2weeks": 0,
+                "img_icon_url": "fce050d63f0a2f8eb51b603c7f30bfca2a301549",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 9,
+                        "description": "Co-op"
+                    },
+                    {
+                        "id": 38,
+                        "description": "Online Co-op"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 35,
+                        "description": "In-App Purchases"
+                    },
+                    {
+                        "id": 18,
+                        "description": "Partial Controller Support"
+                    }
+                ]
+            },
+            {
+                "appid": 1189490,
+                "name": "觅长生",
+                "playtime_forever": 2813,
+                "playtime_2weeks": 0,
+                "img_icon_url": "f242f2631b18b9644781ba1df9af65ae18e59bf9",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 51,
+                        "description": "Steam Workshop"
+                    },
+                    {
+                        "id": 30,
+                        "description": "Steam Workshop"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 1621690,
+                "name": "Core Keeper",
+                "playtime_forever": 5,
+                "playtime_2weeks": 0,
+                "img_icon_url": "53517a1b2eb22e22ac4a1f71c814209f1b84c063",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 9,
+                        "description": "Co-op"
+                    },
+                    {
+                        "id": 38,
+                        "description": "Online Co-op"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 1623730,
+                "name": "Palworld",
+                "playtime_forever": 3992,
+                "playtime_2weeks": 0,
+                "img_icon_url": "f5523077a8f4c923c2e8d8c17794b3319035fa73",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 9,
+                        "description": "Co-op"
+                    },
+                    {
+                        "id": 38,
+                        "description": "Online Co-op"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            },
+            {
+                "appid": 2073850,
+                "name": "THE FINALS",
+                "playtime_forever": 0,
+                "playtime_2weeks": 0,
+                "img_icon_url": "9532db560dca3b4982f4af3f5981b6b2ce2a6909",
+                "categories": [
+                    {
+                        "id": 1,
+                        "description": "Multi-player"
+                    },
+                    {
+                        "id": 49,
+                        "description": "PvP"
+                    },
+                    {
+                        "id": 36,
+                        "description": "Online PvP"
+                    },
+                    {
+                        "id": 9,
+                        "description": "Co-op"
+                    },
+                    {
+                        "id": 38,
+                        "description": "Online Co-op"
+                    },
+                    {
+                        "id": 27,
+                        "description": "Cross-Platform Multiplayer"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 35,
+                        "description": "In-App Purchases"
+                    }
+                ]
+            },
+            {
+                "appid": 2358720,
+                "name": "Black Myth: Wukong",
+                "playtime_forever": 8315,
+                "playtime_2weeks": 13,
+                "img_icon_url": "764ad8ff458f7020d63a3f7f0abf6ad8882c05df",
+                "categories": [
+                    {
+                        "id": 2,
+                        "description": "Single-player"
+                    },
+                    {
+                        "id": 22,
+                        "description": "Steam Achievements"
+                    },
+                    {
+                        "id": 28,
+                        "description": "Full controller support"
+                    },
+                    {
+                        "id": 29,
+                        "description": "Steam Trading Cards"
+                    },
+                    {
+                        "id": 23,
+                        "description": "Steam Cloud"
+                    },
+                    {
+                        "id": 62,
+                        "description": "Family Sharing"
+                    }
+                ]
+            }
+        ]
+    }
+}
