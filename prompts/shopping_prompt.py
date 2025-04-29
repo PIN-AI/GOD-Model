@@ -1,54 +1,80 @@
 SHOPPING_EVALUATION_PROMPT = """
-Evaluate the quality of shopping data based on the following metrics:
+Evaluate the shopping-data sample against the metrics below, decide an overall
+quality tier (HIGH / MEDIUM / LOW), and answer five binary questions.
 
-1. Data Completeness:
-   - Shopping receipt history
-   - Purchase patterns
-   - Discount usage
-   - Shopping preferences
+────────────────────────────────────────────────────────────────────────
+METRICS (use for overall_score)
+────────────────────────────────────────────────────────────────────────
+1.  Data Completeness:
+    - Shopping receipt history and patterns.
+    - Purchase frequency across different categories.
+    - Discount usage and preferences.
+    - Shopping platform preferences.
 
-2. Data Recency:
-   - Last shopping activity
-   - Recent purchase patterns
-   - Latest discount usage
-   - Shopping frequency
+2.  Data Recency:
+    - Freshness of recent purchases and transactions.
+    - Frequency of shopping activity.
+    - Last activity timestamps for each platform.
+    - Recent purchase patterns and preferences.
 
-3. Data Personalization:
-   - Product preferences
-   - Brand loyalty
-   - Price sensitivity
-   - Shopping categories
+3.  Data Personalization:
+    - Product preferences and categories.
+    - Brand loyalty and preferences.
+    - Price sensitivity and patterns.
+    - Shopping timing preferences.
 
-4. Data Quality Metrics:
-   - Percentage of regular vs. one-time purchases
-   - Ratio of essential vs. luxury items
-   - Shopping frequency consistency
-   - Price range patterns
+4.  Data Quality:
+    - Ratio of regular vs. one-time purchases.
+    - Consistency in shopping patterns.
+    - Frequency of platform usage.
+    - Price range and category diversity.
 
-Evaluation Criteria with Examples:
+────────────────────────────────────────────────────────────────────────
+QUALITY TIERS & EXAMPLES
+────────────────────────────────────────────────────────────────────────
+HIGH:
+    - Frequency: Weekly shopping (5+ transactions), consistent categories.
+    - Preferences: Clear brand loyalty, stable price ranges, regular discount usage.
+    - Categories: 3+ active shopping categories, diverse product types.
+    - Overall: High completeness, recency, personalization, and quality across all platforms.
 
-HIGH Quality Examples:
-1. Weekly shopping (5+ transactions), consistent brand preferences, regular discount usage
-2. Clear product categories (3+ categories), stable price ranges, high brand loyalty
-3. Active shopping history (20+ transactions monthly), 80% regular purchases
+MEDIUM:
+    - Frequency: Monthly shopping (2-3 transactions), some category patterns.
+    - Preferences: Some brand preferences, variable price ranges.
+    - Categories: 1-2 active shopping categories.
+    - Overall: Decent activity across platforms, but lacks the consistency of HIGH.
 
-MEDIUM Quality Examples:
-1. Monthly shopping (2-3 transactions), some brand preferences, occasional discount usage
-2. Few product categories (1-2), variable price ranges, moderate brand loyalty
-3. Moderate shopping history (5+ transactions monthly), 50% regular purchases
+LOW:
+    - Frequency: Quarterly shopping (<1 transaction), random categories.
+    - Preferences: No clear brand preferences, highly variable price ranges.
+    - Categories: No clear category preferences.
+    - Overall: Minimal activity, outdated information, or inconsistent patterns.
 
-LOW Quality Examples:
-1. Quarterly shopping (<1 transaction), random brand choices, rare discount usage
-2. No clear product categories, highly variable price ranges, low brand loyalty
-3. Minimal shopping history (<5 transactions monthly), <30% regular purchases
+────────────────────────────────────────────────────────────────────────
+BINARY QUESTIONS (strict "yes" / "no" answers only)
+────────────────────────────────────────────────────────────────────────
+Q1  Updated within the last 14 days? (Based on the most recent purchase timestamp)
+Q2  Record count ≥ 50? (Refers to meaningful data points like purchases, receipts, etc.)
+Q3  Data directly reflects user preferences / behaviour? (e.g., brand choices, price ranges)
+Q4  Contains explicit or inferable time context? (e.g., timestamps on purchases)
+Q5  Shows consistent shopping patterns? (e.g., regular purchase times, stable price ranges)
 
-Output Format:
+────────────────────────────────────────────────────────────────────────
+OUTPUT FORMAT (strict JSON, no extra keys, no comments)
+────────────────────────────────────────────────────────────────────────
 {
-    "overall_score": "HIGH/MEDIUM/LOW"
+  "overall_score": "HIGH|MEDIUM|LOW",
+  "Q1": "yes|no",
+  "Q2": "yes|no",
+  "Q3": "yes|no",
+  "Q4": "yes|no",
+  "Q5": "yes|no"
 }
 
-User Data:
+────────────────────────────────────────────────────────────────────────
+USER DATA
+────────────────────────────────────────────────────────────────────────
 {data_for_shopping_category}
 
-Based on the above data, provide your evaluation following the output format.
+Return the JSON object only.
 """ 

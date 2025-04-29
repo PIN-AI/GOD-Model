@@ -1,54 +1,76 @@
 SOCIAL_EVALUATION_PROMPT = """
-Evaluate the quality of social data based on the following metrics:
+Evaluate the social-data sample against the metrics below, decide an overall
+quality tier (HIGH / MEDIUM / LOW), and answer five binary questions.
 
-1. Data Completeness:
-   - Twitter handle presence and activity
-   - Twitter followers count and growth
-   - Discord server participation
-   - Telegram username and activity
+────────────────────────────────────────────────────────────────────────
+METRICS (use for overall_score)
+────────────────────────────────────────────────────────────────────────
+1.  Data Completeness:
+    - Presence and activity on platforms like Twitter, Discord, Telegram.
+    - Follower/contact counts and growth (e.g., Twitter followers, Telegram contacts).
+    - Participation in relevant communities (e.g., Discord servers).
 
-2. Data Recency:
-   - Last Twitter activity
-   - Last Discord interaction
-   - Last Telegram message
-   - Social media engagement frequency
+2.  Data Recency:
+    - Freshness of recent posts, messages, or interactions (e.g., last Twitter post, last Discord message, last Telegram activity).
+    - Frequency of engagement across platforms.
 
-3. Data Personalization:
-   - Unique social connections
-   - Active communities
-   - Social interaction patterns
-   - Content preferences
+3.  Data Personalization:
+    - Evidence of unique social connections and interaction patterns.
+    - Indication of active participation in specific communities.
+    - Reflection of user's content preferences or interests through interactions.
 
-4. Data Quality Metrics:
-   - Percentage of active vs. inactive accounts
-   - Ratio of meaningful interactions
-   - Social network diversity
-   - Engagement depth
+4.  Data Quality:
+    - Ratio of active vs. inactive accounts or connections.
+    - Depth and meaningfulness of interactions (beyond simple likes/follows).
+    - Diversity of social networks used.
+    - Overall engagement depth.
 
-Evaluation Criteria with Examples:
+────────────────────────────────────────────────────────────────────────
+QUALITY TIERS & EXAMPLES
+────────────────────────────────────────────────────────────────────────
+HIGH:
+    - Twitter: Active user with 10k+ followers, daily posts, consistent engagement.
+    - Discord: Member of 5+ active servers with regular, meaningful participation.
+    - Telegram: User with 100+ contacts and daily message activity.
+    - Overall: High completeness, recency, personalization, and quality across multiple platforms.
 
-HIGH Quality Examples:
-1. Active Twitter user with 10k+ followers, daily posts, and consistent engagement
-2. Member of 5+ active Discord servers with regular participation
-3. Telegram user with 100+ contacts and daily message activity
+MEDIUM:
+    - Twitter: Account with ~1k followers, weekly posts, moderate engagement.
+    - Discord: Member of 2-3 servers with moderate or occasional participation.
+    - Telegram: User with 50+ contacts and weekly message activity.
+    - Overall: Decent presence on some platforms, but lacks the depth, breadth, or recency of HIGH.
 
-MEDIUM Quality Examples:
-1. Twitter account with 1k followers, weekly posts, moderate engagement
-2. Member of 2-3 Discord servers with occasional participation
-3. Telegram user with 50+ contacts and weekly message activity
+LOW:
+    - Twitter: Account with <100 followers, infrequent (e.g., monthly) posts, minimal engagement.
+    - Discord: Member of 0-1 servers with rare participation.
+    - Telegram: User with <20 contacts and infrequent (e.g., monthly) message activity.
+    - Overall: Minimal presence, outdated information, low engagement, or activity limited to a single, inactive platform.
 
-LOW Quality Examples:
-1. Twitter account with <100 followers, monthly posts, minimal engagement
-2. Member of 1 Discord server with rare participation
-3. Telegram user with <20 contacts and monthly message activity
+────────────────────────────────────────────────────────────────────────
+BINARY QUESTIONS (strict "yes" / "no" answers only)
+────────────────────────────────────────────────────────────────────────
+Q1  Updated within the last 14 days? (Based on the most recent activity timestamp across platforms)
+Q2  Record count ≥ 50? (Refers to meaningful data points like posts, messages, significant connections, server memberships etc., not just raw follower count)
+Q3  Data directly reflects user preferences / behaviour? (e.g., joining specific groups, commenting on certain topics)
+Q4  Contains explicit or inferable time context? (e.g., timestamps on posts/messages, activity logs)
+Q5  Shows consistent engagement patterns? (e.g., regular posting times, consistent interaction frequency)
 
-Output Format:
+────────────────────────────────────────────────────────────────────────
+OUTPUT FORMAT (strict JSON, no extra keys, no comments)
+────────────────────────────────────────────────────────────────────────
 {
-    "overall_score": "HIGH/MEDIUM/LOW"
+  "overall_score": "HIGH|MEDIUM|LOW",
+  "Q1": "yes|no",
+  "Q2": "yes|no",
+  "Q3": "yes|no",
+  "Q4": "yes|no",
+  "Q5": "yes|no"
 }
 
-User Data:
+────────────────────────────────────────────────────────────────────────
+USER DATA
+────────────────────────────────────────────────────────────────────────
 {data_for_social_category}
 
-Based on the above data, provide your evaluation following the output format.
+Return the JSON object only.
 """ 

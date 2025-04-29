@@ -1,54 +1,80 @@
 PRODUCTIVITY_EVALUATION_PROMPT = """
-Evaluate the quality of productivity data based on the following metrics:
+Evaluate the productivity-data sample against the metrics below, decide an overall
+quality tier (HIGH / MEDIUM / LOW), and answer five binary questions.
 
-1. Data Completeness:
-   - Email activity and patterns
-   - Calendar event coverage
-   - Meeting frequency and types
-   - Task management data
+────────────────────────────────────────────────────────────────────────
+METRICS (use for overall_score)
+────────────────────────────────────────────────────────────────────────
+1.  Data Completeness:
+    - Email activity and patterns (sent/received, thread participation).
+    - Calendar event coverage (meetings, appointments, deadlines).
+    - Task management data (todos, projects, deadlines).
+    - Meeting frequency and types.
 
-2. Data Recency:
-   - Last email activity
-   - Most recent calendar event
-   - Recent meeting patterns
-   - Task completion rates
+2.  Data Recency:
+    - Freshness of recent emails, calendar events, and tasks.
+    - Frequency of productivity tool usage.
+    - Last activity timestamps across all productivity tools.
+    - Recent meeting patterns and task completion rates.
 
-3. Data Personalization:
-   - Work schedule patterns
-   - Meeting preferences
-   - Communication styles
-   - Productivity habits
+3.  Data Personalization:
+    - Work schedule patterns and preferences.
+    - Meeting preferences and communication styles.
+    - Task organization and prioritization patterns.
+    - Productivity habits and routines.
 
-4. Data Quality Metrics:
-   - Percentage of meaningful vs. routine emails
-   - Ratio of scheduled vs. ad-hoc meetings
-   - Task completion efficiency
-   - Work-life balance indicators
+4.  Data Quality:
+    - Ratio of meaningful vs. routine communications.
+    - Task completion efficiency and patterns.
+    - Meeting effectiveness indicators.
+    - Work-life balance indicators.
 
-Evaluation Criteria with Examples:
+────────────────────────────────────────────────────────────────────────
+QUALITY TIERS & EXAMPLES
+────────────────────────────────────────────────────────────────────────
+HIGH:
+    - Email: Daily activity (50+ emails), high thread participation, clear communication patterns.
+    - Calendar: 5+ events daily, well-structured meetings, consistent scheduling.
+    - Tasks: 10+ active tasks, 90% completion rate, clear prioritization.
+    - Overall: High completeness, recency, personalization, and quality across all tools.
 
-HIGH Quality Examples:
-1. Daily email activity (50+ emails), 5+ calendar events per day, 90% task completion
-2. Regular meeting schedule (3+ meetings daily), consistent work hours (9-5)
-3. High task management activity (10+ tasks daily), 95% completion rate
+MEDIUM:
+    - Email: Weekly activity (20+ emails), moderate thread participation.
+    - Calendar: 2-3 events daily, some meeting structure.
+    - Tasks: 5+ active tasks, 70% completion rate.
+    - Overall: Decent activity across tools, but lacks the depth or consistency of HIGH.
 
-MEDIUM Quality Examples:
-1. Weekly email activity (20+ emails), 2-3 calendar events per day, 70% task completion
-2. Occasional meetings (1-2 daily), flexible work hours
-3. Moderate task management (5+ tasks daily), 75% completion rate
+LOW:
+    - Email: Monthly activity (<10 emails), minimal thread participation.
+    - Calendar: 0-1 events daily, unstructured meetings.
+    - Tasks: <5 active tasks, <50% completion rate.
+    - Overall: Minimal activity, outdated information, or inconsistent usage patterns.
 
-LOW Quality Examples:
-1. Monthly email activity (<10 emails), 0-1 calendar events per day, <50% task completion
-2. Rare meetings (<1 weekly), irregular work hours
-3. Minimal task management (<5 tasks weekly), <50% completion rate
+────────────────────────────────────────────────────────────────────────
+BINARY QUESTIONS (strict "yes" / "no" answers only)
+────────────────────────────────────────────────────────────────────────
+Q1  Updated within the last 14 days? (Based on the most recent activity timestamp across tools)
+Q2  Record count ≥ 50? (Refers to meaningful data points like emails, calendar events, tasks, etc.)
+Q3  Data directly reflects user preferences / behaviour? (e.g., meeting patterns, task organization)
+Q4  Contains explicit or inferable time context? (e.g., timestamps on emails, calendar events)
+Q5  Shows clear work patterns? (e.g., consistent meeting times, regular task completion patterns)
 
-Output Format:
+────────────────────────────────────────────────────────────────────────
+OUTPUT FORMAT (strict JSON, no extra keys, no comments)
+────────────────────────────────────────────────────────────────────────
 {
-    "overall_score": "HIGH/MEDIUM/LOW"
+  "overall_score": "HIGH|MEDIUM|LOW",
+  "Q1": "yes|no",
+  "Q2": "yes|no",
+  "Q3": "yes|no",
+  "Q4": "yes|no",
+  "Q5": "yes|no"
 }
 
-User Data:
+────────────────────────────────────────────────────────────────────────
+USER DATA
+────────────────────────────────────────────────────────────────────────
 {data_for_productivity_category}
 
-Based on the above data, provide your evaluation following the output format.
+Return the JSON object only.
 """ 
