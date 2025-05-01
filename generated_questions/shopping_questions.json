@@ -1,0 +1,41 @@
+{
+  "category": "shopping",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Has the user made at least 5 purchases in the last 60 days?",
+      "criteria": "Measures data completeness by purchase frequency over a recent 2-month period",
+      "metric_type": "completeness"
+    },
+    {
+      "id": 2,
+      "question": "Is there at least one purchase recorded within the last 7 days?",
+      "criteria": "Confirms data recency based on the most recent shopping activity",
+      "metric_type": "recency"
+    },
+    {
+      "id": 3,
+      "question": "Has the user purchased items from 3 or more distinct product categories in the last 90 days?",
+      "criteria": "Evaluates completeness by diversity across product categories within a 3-month timeframe",
+      "metric_type": "completeness"
+    },
+    {
+      "id": 4,
+      "question": "Does the user have at least 3 purchases from the same brand in the last 60 days?",
+      "criteria": "Measures personalization by identifying brand preference based on recent purchase patterns",
+      "metric_type": "personalization"
+    },
+    {
+      "id": 5,
+      "question": "Has the user made two or more purchases within the same price range in the last 30 days?",
+      "criteria": "Assesses price sensitivity through consistent spending behavior in a 1-month period",
+      "metric_type": "personalization"
+    },
+    {
+      "id": 6,
+      "question": "Are at least 80% of the user's purchases from the last 90 days recurring (repeat) purchases rather than one-time only?",
+      "criteria": "Evaluates data quality based on regularity and consistency of purchase behavior over 3 months",
+      "metric_type": "quality"
+    }
+  ]
+}

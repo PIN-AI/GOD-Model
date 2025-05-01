@@ -1,0 +1,41 @@
+{
+  "category": "finance",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Has the user completed at least one transaction every week for the past 8 weeks?",
+      "criteria": "Measures consistency in transaction history over time",
+      "metric_type": "completeness"
+    },
+    {
+      "id": 2,
+      "question": "Is the latest account balance update within the last 7 calendar days?",
+      "criteria": "Ensures data reflects recent balance changes",
+      "metric_type": "recency"
+    },
+    {
+      "id": 3,
+      "question": "Has the user made investment transactions in at least two distinct asset classes in the last 30 days?",
+      "criteria": "Evaluates diversity of recent investment activity",
+      "metric_type": "completeness"
+    },
+    {
+      "id": 4,
+      "question": "Does the data include a recorded risk tolerance level corresponding to the user\u2019s current portfolio?",
+      "criteria": "Confirms presence of personalized risk profile data",
+      "metric_type": "personalization"
+    },
+    {
+      "id": 5,
+      "question": "Are there at least three recurring transaction amounts recorded in the past 60 days?",
+      "criteria": "Identifies regular versus one-time transactions for quality assurance",
+      "metric_type": "quality"
+    },
+    {
+      "id": 6,
+      "question": "Has the user conducted trading activities in at least three different market sectors during the past 90 days?",
+      "criteria": "Measures variety in recent trading patterns indicating completeness and quality",
+      "metric_type": "completeness"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "category": "daily_life",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Has the user completed at least 3 ride-sharing trips in the last 30 days?",
+      "criteria": "Measures ride-sharing activity frequency",
+      "metric_type": "completeness"
+    },
+    {
+      "id": 2,
+      "question": "Is there at least one recorded food delivery order within the past 14 days?",
+      "criteria": "Checks for recent food delivery usage",
+      "metric_type": "recency"
+    },
+    {
+      "id": 3,
+      "question": "Has the user made 2 or more grocery shopping transactions in the last 30 days?",
+      "criteria": "Assesses grocery shopping frequency",
+      "metric_type": "completeness"
+    },
+    {
+      "id": 4,
+      "question": "Does the user have a single preferred ride-sharing provider with at least 2 rides in the last 30 days?",
+      "criteria": "Identifies transportation service preference",
+      "metric_type": "personalization"
+    },
+    {
+      "id": 5,
+      "question": "Has the user ordered food delivery on at least two separate days within the same recurring time window in the last 30 days?",
+      "criteria": "Evaluates consistency in food ordering habits",
+      "metric_type": "personalization"
+    },
+    {
+      "id": 6,
+      "question": "Are there at least 3 distinct service categories with recorded usage in the past 30 days?",
+      "criteria": "Measures diversity and quality of service usage data",
+      "metric_type": "quality"
+    }
+  ]
+}
