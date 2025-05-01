@@ -1,0 +1,41 @@
+{
+  "category": "web3",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Has the user completed at least 10 transactions in the last 60 days?",
+      "criteria": "Measures transaction history completeness",
+      "metric_type": "completeness"
+    },
+    {
+      "id": 2,
+      "question": "Has the user owned at least 1 NFT continuously for the past 90 days?",
+      "criteria": "Evaluates NFT ownership data completeness over time",
+      "metric_type": "completeness"
+    },
+    {
+      "id": 3,
+      "question": "Has the user conducted at least one DeFi interaction within the last 30 days?",
+      "criteria": "Checks recency of DeFi protocol usage",
+      "metric_type": "recency"
+    },
+    {
+      "id": 4,
+      "question": "Has the user consistently transacted with the same protocol at least 5 times in the past 30 days?",
+      "criteria": "Identifies protocol consistency and personalization",
+      "metric_type": "personalization"
+    },
+    {
+      "id": 5,
+      "question": "Does the user exhibit at least 3 transactions of similar value (\u00b110%) in the last 30 days?",
+      "criteria": "Measures regular transaction pattern quality",
+      "metric_type": "quality"
+    },
+    {
+      "id": 6,
+      "question": "Is there wallet activity recorded on at least 20 distinct days within the last 90 days?",
+      "criteria": "Assesses data completeness and activity frequency",
+      "metric_type": "completeness"
+    }
+  ]
+}

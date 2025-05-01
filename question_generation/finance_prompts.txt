@@ -1,0 +1,85 @@
+Generate 6 binary (yes/no) questions to evaluate the quality and completeness of finance data.
+
+────────────────────────────────────────────────────────────────────────
+METRICS TO CONSIDER
+────────────────────────────────────────────────────────────────────────
+1. Data Completeness:
+   - Transaction history
+   - Investment activity
+   - Account balances
+   - Trading patterns
+
+2. Data Recency:
+   - Most recent transactions
+   - Latest investments
+   - Recent balance changes
+   - Trading activity
+
+3. Data Personalization:
+   - Investment preferences
+   - Trading strategies
+   - Account types
+   - Risk tolerance
+
+4. Data Quality:
+   - Regular vs. one-time transactions
+   - Investment consistency
+   - Trading patterns
+   - Balance stability
+
+────────────────────────────────────────────────────────────────────────
+QUESTION REQUIREMENTS
+────────────────────────────────────────────────────────────────────────
+- Each question must be answerable with a strict yes/no response
+- Questions should be specific and measurable
+- Include clear timeframes where relevant
+- Focus on quantifiable metrics
+- Avoid subjective or ambiguous criteria
+- Ensure questions can be answered from available data
+
+────────────────────────────────────────────────────────────────────────
+RESPONSE TEMPLATE
+────────────────────────────────────────────────────────────────────────
+{
+    "category": "finance",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Has the user made at least 3 transactions in the last 30 days?",
+            "criteria": "Measures account activity",
+            "metric_type": "completeness"
+        },
+        {
+            "id": 2,
+            "question": "Is there at least one transaction in the last 14 days?",
+            "criteria": "Indicates recent activity",
+            "metric_type": "recency"
+        },
+        {
+            "id": 3,
+            "question": "Has the user invested in at least 2 different assets in the last 30 days?",
+            "criteria": "Shows investment diversity",
+            "metric_type": "completeness"
+        },
+        {
+            "id": 4,
+            "question": "Does the user have a preferred investment type with 2+ recent transactions?",
+            "criteria": "Indicates investment preference",
+            "metric_type": "personalization"
+        },
+        {
+            "id": 5,
+            "question": "Has the user made transactions of similar size at least twice?",
+            "criteria": "Shows transaction patterns",
+            "metric_type": "recency"
+        },
+        {
+            "id": 6,
+            "question": "Are there transactions in at least 3 different categories in the last 30 days?",
+            "criteria": "Indicates diverse activity",
+            "metric_type": "quality"
+        }
+    ]
+}
+
+Format each question as a single line followed by a blank line and its evaluation criteria in parentheses. 

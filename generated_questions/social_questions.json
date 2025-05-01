@@ -1,0 +1,41 @@
+{
+  "category": "social",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Has the user posted at least 5 tweets in the last 30 days?",
+      "criteria": "Measures active Twitter engagement",
+      "metric_type": "completeness"
+    },
+    {
+      "id": 2,
+      "question": "Is the user a member of more than 3 Discord servers?",
+      "criteria": "Indicates community participation",
+      "metric_type": "completeness"
+    },
+    {
+      "id": 3,
+      "question": "Has the user sent at least 10 messages in Telegram groups in the last 14 days?",
+      "criteria": "Shows active communication",
+      "metric_type": "recency"
+    },
+    {
+      "id": 4,
+      "question": "Does the user have active accounts on at least 2 different social platforms?",
+      "criteria": "Measures cross-platform presence",
+      "metric_type": "personalization"
+    },
+    {
+      "id": 5,
+      "question": "Has the user engaged with content (likes, retweets, replies) in the last 7 days?",
+      "criteria": "Indicates recent activity",
+      "metric_type": "recency"
+    },
+    {
+      "id": 6,
+      "question": "Does the user have a consistent posting pattern (at least weekly) on any platform?",
+      "criteria": "Shows regular engagement",
+      "metric_type": "quality"
+    }
+  ]
+}

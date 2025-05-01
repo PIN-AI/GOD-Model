@@ -1,0 +1,85 @@
+Generate 6 binary (yes/no) questions to evaluate the quality and completeness of daily life data.
+
+────────────────────────────────────────────────────────────────────────
+METRICS TO CONSIDER
+────────────────────────────────────────────────────────────────────────
+1. Data Completeness:
+   - Ride-sharing activity and patterns
+   - Food delivery history
+   - Grocery shopping frequency
+   - Service usage patterns
+
+2. Data Recency:
+   - Most recent ride-sharing activity
+   - Latest food delivery order
+   - Recent grocery purchases
+   - Service usage timestamps
+
+3. Data Personalization:
+   - Transportation preferences
+   - Food ordering habits
+   - Shopping patterns
+   - Service preferences
+
+4. Data Quality:
+   - Regular vs. one-time usage
+   - Service consistency
+   - Order frequency
+   - Lifestyle patterns
+
+────────────────────────────────────────────────────────────────────────
+QUESTION REQUIREMENTS
+────────────────────────────────────────────────────────────────────────
+- Each question must be answerable with a strict yes/no response
+- Questions should be specific and measurable
+- Include clear timeframes where relevant
+- Focus on quantifiable metrics
+- Avoid subjective or ambiguous criteria
+- Ensure questions can be answered from available data
+
+────────────────────────────────────────────────────────────────────────
+RESPONSE TEMPLATE
+────────────────────────────────────────────────────────────────────────
+{
+    "category": "daily_life",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Has the user used ride-sharing services at least 3 times in the last 30 days?",
+            "criteria": "Measures transportation activity",
+            "metric_type": "completeness"
+        },
+        {
+            "id": 2,
+            "question": "Is there at least one food delivery order in the last 14 days?",
+            "criteria": "Indicates recent food delivery usage",
+            "metric_type": "recency"
+        },
+        {
+            "id": 3,
+            "question": "Has the user placed at least 2 grocery delivery orders in the last 30 days?",
+            "criteria": "Shows regular grocery shopping",
+            "metric_type": "completeness"
+        },
+        {
+            "id": 4,
+            "question": "Does the user have a preferred ride-sharing service with 2+ recent rides?",
+            "criteria": "Indicates service preference",
+            "metric_type": "personalization"
+        },
+        {
+            "id": 5,
+            "question": "Has the user ordered food delivery during the same time window at least twice?",
+            "criteria": "Shows ordering patterns",
+            "metric_type": "recency"
+        },
+        {
+            "id": 6,
+            "question": "Are there at least 3 different types of service receipts in the last 30 days?",
+            "criteria": "Indicates diverse service usage",
+            "metric_type": "quality"
+        }
+    ]
+}
+
+Format each question as a single line followed by a blank line and its evaluation criteria in parentheses. 

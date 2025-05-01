@@ -1,0 +1,41 @@
+{
+  "category": "productivity",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Has the user participated in at least 5 meetings during the last 14 days?",
+      "criteria": "Measures recent meeting activity frequency",
+      "metric_type": "completeness"
+    },
+    {
+      "id": 2,
+      "question": "Are there no gaps larger than 3 days without recorded email activity in the past 30 days?",
+      "criteria": "Ensures continuous email data coverage",
+      "metric_type": "completeness"
+    },
+    {
+      "id": 3,
+      "question": "Is there at least one task updated or completed in the last 7 days?",
+      "criteria": "Indicates recent task management activity",
+      "metric_type": "recency"
+    },
+    {
+      "id": 4,
+      "question": "Does the calendar data include recurring events covering at least 2 different workweeks in the past month?",
+      "criteria": "Reflects regular scheduling patterns",
+      "metric_type": "personalization"
+    },
+    {
+      "id": 5,
+      "question": "Has the user created or modified at least 3 unique task categories in the last 30 days?",
+      "criteria": "Measures personalization through task organization",
+      "metric_type": "personalization"
+    },
+    {
+      "id": 6,
+      "question": "Are at least 80% of meetings in the past 30 days categorized as recurring or part of a regular schedule?",
+      "criteria": "Assesses data quality by distinguishing regular vs one-time activities",
+      "metric_type": "quality"
+    }
+  ]
+}

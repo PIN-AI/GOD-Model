@@ -1,0 +1,83 @@
+Generate 6 binary (yes/no) questions to evaluate the quality and completeness of social media data.
+
+────────────────────────────────────────────────────────────────────────
+METRICS TO CONSIDER
+────────────────────────────────────────────────────────────────────────
+1. Data Completeness:
+   - Twitter activity and engagement metrics
+   - Discord server participation
+   - Telegram usage and groups
+   - Cross-platform presence
+
+2. Data Recency:
+   - Most recent social media activity
+   - Frequency of platform usage
+   - Last interaction timestamps
+   - Recent engagement patterns
+
+3. Data Personalization:
+   - Platform preferences
+   - Interaction patterns
+   - Content preferences
+   - Community engagement
+
+4. Data Quality:
+   - Active vs. passive usage
+   - Engagement consistency
+   - Platform diversity
+   - Social network indicators
+
+────────────────────────────────────────────────────────────────────────
+QUESTION REQUIREMENTS
+────────────────────────────────────────────────────────────────────────
+- Each question must be answerable with a strict yes/no response
+- Questions should be specific and measurable
+- Include clear timeframes where relevant
+- Focus on quantifiable metrics
+- Avoid subjective or ambiguous criteria
+- Ensure questions can be answered from available data
+
+────────────────────────────────────────────────────────────────────────
+RESPONSE TEMPLATE
+────────────────────────────────────────────────────────────────────────
+{
+    "category": "social",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Has the user posted at least 5 tweets in the last 30 days?",
+            "criteria": "Measures active Twitter engagement",
+            "metric_type": "completeness"
+        },
+        {
+            "id": 2,
+            "question": "Is the user a member of more than 3 Discord servers?",
+            "criteria": "Indicates community participation",
+            "metric_type": "completeness"
+        },
+        {
+            "id": 3,
+            "question": "Has the user sent at least 10 messages in Telegram groups in the last 14 days?",
+            "criteria": "Shows active communication",
+            "metric_type": "recency"
+        },
+        {
+            "id": 4,
+            "question": "Does the user have active accounts on at least 2 different social platforms?",
+            "criteria": "Measures cross-platform presence",
+            "metric_type": "personalization"
+        },
+        {
+            "id": 5,
+            "question": "Has the user engaged with content (likes, retweets, replies) in the last 7 days?",
+            "criteria": "Indicates recent activity",
+            "metric_type": "recency"
+        },
+        {
+            "id": 6,
+            "question": "Does the user have a consistent posting pattern (at least weekly) on any platform?",
+            "criteria": "Shows regular engagement",
+            "metric_type": "quality"
+        }
+    ]
+} 

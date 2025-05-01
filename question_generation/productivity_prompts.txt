@@ -1,0 +1,85 @@
+Generate 6 binary (yes/no) questions to evaluate the quality and completeness of productivity data.
+
+────────────────────────────────────────────────────────────────────────
+METRICS TO CONSIDER
+────────────────────────────────────────────────────────────────────────
+1. Data Completeness:
+   - Email activity and patterns
+   - Calendar event coverage
+   - Meeting frequency and types
+   - Task management data
+
+2. Data Recency:
+   - Most recent email activity
+   - Upcoming calendar events
+   - Recent meeting participation
+   - Latest task updates
+
+3. Data Personalization:
+   - Work schedule patterns
+   - Meeting preferences
+   - Communication habits
+   - Task organization
+
+4. Data Quality:
+   - Regular vs. one-time activities
+   - Schedule consistency
+   - Meeting frequency
+   - Task completion patterns
+
+────────────────────────────────────────────────────────────────────────
+QUESTION REQUIREMENTS
+────────────────────────────────────────────────────────────────────────
+- Each question must be answerable with a strict yes/no response
+- Questions should be specific and measurable
+- Include clear timeframes where relevant
+- Focus on quantifiable metrics
+- Avoid subjective or ambiguous criteria
+- Ensure questions can be answered from available data
+
+────────────────────────────────────────────────────────────────────────
+RESPONSE TEMPLATE
+────────────────────────────────────────────────────────────────────────
+{
+    "category": "productivity",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Has the user received more than 20 work-related emails in the last 7 days?",
+            "criteria": "Measures email activity level",
+            "metric_type": "completeness"
+        },
+        {
+            "id": 2,
+            "question": "Are there at least 5 calendar events scheduled for the next 14 days?",
+            "criteria": "Indicates future planning",
+            "metric_type": "recency"
+        },
+        {
+            "id": 3,
+            "question": "Has the user attended at least 3 meetings in the last 7 days?",
+            "criteria": "Shows meeting participation",
+            "metric_type": "completeness"
+        },
+        {
+            "id": 4,
+            "question": "Does the user have at least one recurring calendar event?",
+            "criteria": "Indicates regular schedule patterns",
+            "metric_type": "personalization"
+        },
+        {
+            "id": 5,
+            "question": "Has the user sent at least 10 work-related emails in the last 7 days?",
+            "criteria": "Measures active communication",
+            "metric_type": "recency"
+        },
+        {
+            "id": 6,
+            "question": "Are there at least 3 different types of calendar events in the next 30 days?",
+            "criteria": "Shows diverse scheduling",
+            "metric_type": "quality"
+        }
+    ]
+}
+
+Format each question as a single line followed by a blank line and its evaluation criteria in parentheses. 

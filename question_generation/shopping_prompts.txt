@@ -1,0 +1,85 @@
+Generate 6 binary (yes/no) questions to evaluate the quality and completeness of shopping data.
+
+────────────────────────────────────────────────────────────────────────
+METRICS TO CONSIDER
+────────────────────────────────────────────────────────────────────────
+1. Data Completeness:
+   - Purchase history
+   - Shopping frequency
+   - Product categories
+   - Price ranges
+
+2. Data Recency:
+   - Most recent purchases
+   - Latest shopping activity
+   - Recent price changes
+   - Updated preferences
+
+3. Data Personalization:
+   - Shopping preferences
+   - Brand preferences
+   - Price sensitivity
+   - Category preferences
+
+4. Data Quality:
+   - Regular vs. one-time purchases
+   - Brand consistency
+   - Price patterns
+   - Shopping patterns
+
+────────────────────────────────────────────────────────────────────────
+QUESTION REQUIREMENTS
+────────────────────────────────────────────────────────────────────────
+- Each question must be answerable with a strict yes/no response
+- Questions should be specific and measurable
+- Include clear timeframes where relevant
+- Focus on quantifiable metrics
+- Avoid subjective or ambiguous criteria
+- Ensure questions can be answered from available data
+
+────────────────────────────────────────────────────────────────────────
+RESPONSE TEMPLATE
+────────────────────────────────────────────────────────────────────────
+{
+    "category": "shopping",
+    "questions": [
+        {
+            "id": 1,
+            "question": "Has the user made at least 3 purchases in the last 30 days?",
+            "criteria": "Measures shopping activity",
+            "metric_type": "completeness"
+        },
+        {
+            "id": 2,
+            "question": "Is there at least one purchase in the last 14 days?",
+            "criteria": "Indicates recent shopping activity",
+            "metric_type": "recency"
+        },
+        {
+            "id": 3,
+            "question": "Has the user purchased from at least 2 different categories in the last 30 days?",
+            "criteria": "Shows diverse shopping",
+            "metric_type": "completeness"
+        },
+        {
+            "id": 4,
+            "question": "Does the user have a preferred brand with 2+ recent purchases?",
+            "criteria": "Indicates brand preference",
+            "metric_type": "personalization"
+        },
+        {
+            "id": 5,
+            "question": "Has the user made purchases within the same price range at least twice?",
+            "criteria": "Shows price sensitivity",
+            "metric_type": "recency"
+        },
+        {
+            "id": 6,
+            "question": "Are there at least 3 different product categories in the last 30 days?",
+            "criteria": "Indicates diverse shopping",
+            "metric_type": "quality"
+        }
+    ]
+}
+
+Format each question as a single line followed by a blank line and its evaluation criteria in parentheses. 
